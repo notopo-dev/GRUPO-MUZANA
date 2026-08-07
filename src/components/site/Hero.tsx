@@ -94,25 +94,33 @@ export function Hero() {
             mounted ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0"
           }`}
         >
-          Grupo Muzaranha · Advocacia Condominial
+          SOLUÇÕES E SERVIÇOS INTELIGENTES PARA CONDOMÍNIOS
         </p>
 
         <h1 className="mx-auto mt-6 max-w-3xl overflow-hidden text-4xl font-semibold leading-[1.15] text-navy-foreground sm:text-5xl lg:text-6xl">
           <span
-            className={`block transition-all duration-700 ease-out ${
+            className={`block whitespace-nowrap transition-all duration-700 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
             }`}
             style={{ transitionDelay: "120ms" }}
           >
-            Segurança jurídica e gestão
+            Segurança jurídica
           </span>
           <span
-            className={`block transition-all duration-700 ease-out ${
+            className={`block whitespace-nowrap transition-all duration-700 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
             }`}
             style={{ transitionDelay: "260ms" }}
           >
-            profissional para o seu condomínio.
+            e gestão profissional
+          </span>
+          <span
+            className={`block whitespace-nowrap transition-all duration-700 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+            }`}
+            style={{ transitionDelay: "400ms" }}
+          >
+            para o seu condomínio.
           </span>
         </h1>
 
@@ -120,7 +128,7 @@ export function Hero() {
           className={`mx-auto mt-6 max-w-2xl text-base leading-relaxed text-navy-foreground/70 transition-all duration-700 ease-out sm:text-lg ${
             mounted ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0"
           }`}
-          style={{ transitionDelay: "420ms" }}
+          style={{ transitionDelay: "560ms" }}
         >
           Quase três décadas de Direito Condominial e uma sindicatura profissional
           transparente — jurídico e gestão sob o mesmo comando, atuando de forma
@@ -131,7 +139,7 @@ export function Hero() {
           className={`mt-10 flex flex-col items-center justify-center gap-4 transition-all duration-700 ease-out sm:flex-row ${
             mounted ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0"
           }`}
-          style={{ transitionDelay: "540ms" }}
+          style={{ transitionDelay: "680ms" }}
         >
           <Link
             to="/juridico"
@@ -152,7 +160,7 @@ export function Hero() {
           className={`mx-auto mt-16 grid max-w-xl grid-cols-3 border-t border-white/15 transition-all duration-700 ease-out ${
             mounted ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0"
           }`}
-          style={{ transitionDelay: "620ms" }}
+          style={{ transitionDelay: "760ms" }}
         >
           {stats.map((s, i) => (
             <StatItem
@@ -161,7 +169,7 @@ export function Hero() {
               suffix={s.suffix}
               label={s.label}
               active={mounted}
-              delay={700 + i * 150}
+              delay={840 + i * 150}
             />
           ))}
         </dl>

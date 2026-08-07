@@ -14,9 +14,8 @@ export function Team() {
           </h2>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-sm gap-7">
+        <div className="mx-auto mt-12 grid max-w-5xl gap-7 sm:grid-cols-2 lg:grid-cols-3">
           {team.map((p) => (
-
             <article
               key={p.name}
               className="group overflow-hidden rounded-2xl border border-border bg-card shadow-soft transition-all duration-300 hover:-translate-y-1.5 hover:shadow-elegant"

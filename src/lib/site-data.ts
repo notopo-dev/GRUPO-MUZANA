@@ -2,6 +2,8 @@ export const CDN = "https://res.cloudinary.com/duxxfpukn/image/upload";
 
 export const logoUrl = `${CDN}/v1785945172/ChatGPT_Image_5_de_ago._de_2026_12_52_28_e89ue4.png`;
 export const danielPhoto = `${CDN}/v1785801544/DR_DANIEL_phz1kg.png`;
+export const thaisPhoto = `${CDN}/v1786142066/THAIS_3_rp65tw.png`;
+export const melissaPhoto = `${CDN}/v1786142065/MELISSA_3_eyx48o.png`;
 
 export const contacts = {
   juridico: {
@@ -75,5 +77,17 @@ export const team = [
     role: "Advogado — OAB/SP 162.002",
     bio: "Advogado há 27 anos, quase três décadas de atuação diretamente junto ao mercado imobiliário. Sólida experiência em Direito Condominial, com profundo conhecimento da legislação, gestão de condomínios e solução estratégica de questões jurídicas e administrativas do setor.",
     photo: danielPhoto,
+  },
+  {
+    name: "Thaís Muzaranha",
+    role: "Gerente Financeira",
+    bio: "Gerente financeira e empresária, atua na área de gestão condominial há 15 anos, tendo exercido a sindicatura em diversos condomínios. Possui expertise nas áreas administrativa, financeira e operacional condominial.",
+    photo: thaisPhoto,
+  },
+  {
+    name: "Melissa Cristh",
+    role: "Empresária",
+    bio: "Formada pela FGV em Administração, com atuação por mais de 21 anos na área de administração de empresas privadas e formação em sindicatura profissional. Possui expertise nas áreas administrativa, financeira e operacional condominial.",
+    photo: melissaPhoto,
   },
 ];
