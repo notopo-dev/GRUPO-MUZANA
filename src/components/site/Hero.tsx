@@ -97,9 +97,9 @@ export function Hero() {
           SOLUÇÕES E SERVIÇOS INTELIGENTES PARA CONDOMÍNIOS
         </p>
 
-        <h1 className="mx-auto mt-6 max-w-3xl overflow-hidden text-4xl font-semibold leading-[1.15] text-navy-foreground sm:text-5xl lg:text-6xl">
+        <h1 className="mx-auto mt-6 max-w-3xl overflow-hidden text-3xl font-semibold leading-[1.15] text-navy-foreground sm:text-5xl lg:text-6xl">
           <span
-            className={`block whitespace-nowrap transition-all duration-700 ease-out ${
+            className={`block whitespace-normal sm:whitespace-nowrap transition-all duration-700 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
             }`}
             style={{ transitionDelay: "120ms" }}
@@ -107,7 +107,7 @@ export function Hero() {
             Segurança jurídica
           </span>
           <span
-            className={`block whitespace-nowrap transition-all duration-700 ease-out ${
+            className={`block whitespace-normal sm:whitespace-nowrap transition-all duration-700 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
             }`}
             style={{ transitionDelay: "260ms" }}
@@ -115,7 +115,7 @@ export function Hero() {
             e gestão profissional
           </span>
           <span
-            className={`block whitespace-nowrap transition-all duration-700 ease-out ${
+            className={`block whitespace-normal sm:whitespace-nowrap transition-all duration-700 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
             }`}
             style={{ transitionDelay: "400ms" }}
