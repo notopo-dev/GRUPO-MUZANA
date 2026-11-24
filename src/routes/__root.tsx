@@ -14,7 +14,7 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { WhatsAppFab } from "@/components/site/WhatsAppFab";
-
+import { SITE_NAME } from "@/lib/seo";
 
 function NotFoundComponent() {
   return (
@@ -81,10 +81,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Grupo Muzaranha" },
-      { name: "description", content: "Jurídico condominial e sindicatura profissional." },
-      { name: "author", content: "Grupo Muzaranha" },
+      { title: SITE_NAME },
+      {
+        name: "description",
+        content: "Jurídico condominial e sindicatura profissional em São Paulo.",
+      },
+      { name: "author", content: SITE_NAME },
+      {
+        name: "robots",
+        content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: SITE_NAME },
+      { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [

@@ -1,25 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Scale, Building2, Users, ImageIcon, ArrowRight } from "lucide-react";
 import { Hero } from "@/components/site/Hero";
-import { logoUrl } from "@/lib/site-data";
+import { organizationSchema, pageHead, websiteSchema } from "@/lib/seo";
 
 const title = "Grupo Muzaranha | Advogado Condominial e Síndico Profissional";
 const description =
   "Consultoria jurídica condominial com 29 anos de experiência e sindicatura profissional em São Paulo. Inadimplência, assembleias, contratos e gestão transparente.";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title },
-      { name: "description", content: description },
-      { property: "og:title", content: title },
-      { property: "og:description", content: description },
-      { property: "og:type", content: "website" },
-      { property: "og:image", content: logoUrl },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: logoUrl },
-    ],
-  }),
+  head: () =>
+    pageHead({ path: "/", title, description, schema: [websiteSchema, organizationSchema] }),
   component: Index,
 });
 
@@ -83,21 +73,6 @@ function Index() {
           </div>
         </div>
       </section>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LegalService",
-            name: "Grupo Muzaranha",
-            description,
-            image: logoUrl,
-            areaServed: "São Paulo, SP",
-            telephone: "+5511982668256",
-            email: "muzaranhaadv@hotmail.com",
-          }),
-        }}
-      />
     </>
   );
 }

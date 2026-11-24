@@ -41,9 +41,9 @@ export function Contact() {
           <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
             Fale com o Grupo Muzaranha
           </span>
-          <h2 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">
+          <h1 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">
             Vamos cuidar do seu condomínio
-          </h2>
+          </h1>
           <p className="mt-3 text-muted-foreground">
             Envie sua mensagem ou fale diretamente pelo WhatsApp com o canal desejado.
           </p>

@@ -9,9 +9,9 @@ export function Team() {
           <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
             Nossa equipe de sucesso
           </span>
-          <h2 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">
+          <h1 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">
             Profissionais que cuidam do seu condomínio
-          </h2>
+          </h1>
         </div>
 
         <div className="mx-auto mt-12 grid max-w-5xl gap-7 sm:grid-cols-2 lg:grid-cols-3">

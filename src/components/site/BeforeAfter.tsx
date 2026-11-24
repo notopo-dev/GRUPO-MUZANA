@@ -77,7 +77,7 @@ export function BeforeAfter() {
           <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
             Prova social visual
           </span>
-          <h2 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">Antes e Depois</h2>
+          <h1 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">Antes e Depois</h1>
           <p className="mt-3 text-muted-foreground">
             Casos reais de melhorias realizadas em condomínios administrados. Arraste a linha para
             comparar.

@@ -111,9 +111,9 @@ export function Sindicatura() {
           <span className="inline-flex items-center gap-2 rounded-full bg-card px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary shadow-soft">
             <Building2 className="size-3.5" /> Sindicatura Profissional
           </span>
-          <h2 className="mt-5 text-3xl font-bold text-foreground sm:text-4xl lg:text-[2.75rem]">
+          <h1 className="mt-5 text-3xl font-bold text-foreground sm:text-4xl lg:text-[2.75rem]">
             Muzaranha Sindicatura
-          </h2>
+          </h1>
           <p className="mt-3 font-display text-lg text-primary">Conquistando o Sucesso Juntos!</p>
         </div>
 
