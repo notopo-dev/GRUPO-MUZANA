@@ -136,7 +136,7 @@ export function Juridico() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href={wa(contacts.juridico.whatsapp, "Olá! Gostaria de falar sobre consultoria jurídica condominial.")}
+                href={wa(contacts.juridico.whatsapp, "Olá! Vim pelo site do Grupo Muzaranha e gostaria de falar sobre consultoria jurídica condominial.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-soft transition-transform hover:scale-[1.03]"

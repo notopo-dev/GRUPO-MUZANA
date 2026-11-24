@@ -255,7 +255,7 @@ export function Sindicatura() {
               <p className="mt-2 text-sm text-navy-foreground/70">Agradecemos a oportunidade!</p>
               <div className="mt-6 flex flex-col gap-3">
                 <a
-                  href={wa(contacts.sindicatura.whatsapp, "Olá! Gostaria de solicitar uma proposta de sindicatura profissional.")}
+                  href={wa(contacts.sindicatura.whatsapp, "Olá! Vim pelo site do Grupo Muzaranha e gostaria de solicitar uma proposta de sindicatura profissional.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-semibold text-gold-foreground transition-transform hover:scale-[1.03]"
